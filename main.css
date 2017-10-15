@@ -6,7 +6,7 @@ html, body {
 body {
     margin: 0px;
     font-family: 'Comfortaa', cursive;
-    background-color: #4B5609; /* #8CAF3C #a3cc45 #363F05 */
+    background-color: #363F05; /* #4B5609 #8CAF3C #a3cc45 #363F05 */
     color: #FCFEDB;/* color of nirmit shah text */
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden;
