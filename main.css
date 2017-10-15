@@ -6,7 +6,7 @@ html, body {
 body {
     margin: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #8CAF3C;
+    background-color: #363F05; /* # 8CAF3C a3cc45*/
     color: #FCFEDB;/* color of nirmit shah text */
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden;
@@ -24,7 +24,7 @@ body {
 }
 h1{
     font-size: 56pt;
-    text-shadow: 2px 3px #825B21;
+    text-shadow: 2px 3px 5px #825B21;
     white-space: nowrap;
     -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s ease-in; /* Firefox < 16 */
