@@ -3,10 +3,30 @@
 <head>
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600" rel="stylesheet">
-    <title> ADA Image Smoother</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/file-upload-with-preview/dist/file-upload-with-preview.min.css">
+
+    <title> Smoovacado</title>
     <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1">
 
 </head>
+  <body id="mainhub">
+      <script src="https://unpkg.com/file-upload-with-preview"></script>
+    <div class="container">
+        <h1>Smoovacado</h1>
 
-<body id="mainhub">
+        <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
+            Select image to upload (.png files only):
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form> -->
+    </div>
+    <div class="custom-file-container" data-upload-id="myFirstImage">
+    <label>Upload File <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image">x</a></label>
+    <label class="custom-file-container__custom-file" >
+        <input type="file" class="custom-file-container__custom-file__custom-file-input" accept="*" multiple>
+        <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+        <span class="custom-file-container__custom-file__custom-file-control"></span>
+    </label>
+    <div class="custom-file-container__image-preview"></div>
+</div>
 </body>
