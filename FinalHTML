@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/file-upload-with-preview/dist/file-upload-with-preview.min.css">
+
+    <title>smoovacado</title>
+    <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1">
+
+</head>
+<body id="mainhub">
+
+
+
+<div class="container1">
+        <h1>smoovacado</h1>
+<form action = "http://localhost:5000/uploader" method = "POST"
+      enctype = "multipart/form-data">
+      Select a file to upload!
+      <input type = "file" name = "file" />
+      <input type = "submit"/>
+   </form>
+   <p></p>
+   <form method="get" action="http://www.bing.com/search">
+
+<div style="border:1px solid black;padding:4px;width:20em;">
+<table border="0" align="center" cellpadding="0">
+<tr><td>
+<input type="text"   name="q" size="25"
+maxlength="255" value="" />
+<input type="submit" value="Bing Search" /></td></tr>
+<tr><td align="center" style="font-size:75%">
+<input type="radio"  name="q1" value="" />The Web
+<input type="radio"  name="q1"
+value="site:yoursite.com" /> Only Your Site<br />
+</td></tr></table>
+</div>
+
+</form>
+        <!-- <form action="/upload" method="post" enctype="multipart/form-data">
+            Select image to upload (.png files only):
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+        <p>Upload an image</p>
+        <input type="file" id="fileinput" accept="image/*"/>
+        <div class="container" id="gallery"></div>
+        <script src="gallery.js"></script> -->
+
+<iframe style="height:480px; width:402px" src='https://webchat.botframework.com/embed/kennysobel_5U4KfJOkYJQ?s=rgUuDgp2eI4.cwA.VxQ.5rLPJ0UtzjEnAl0JYhDr7cB19Uj9t92NNJMJ-QHeWPY'></iframe>
+
+    </div>
+
+</body>
+  <!-- <body id="mainhub">
+      <script src="https://unpkg.com/file-upload-with-preview"></script>
+    <div class="container1">
+        <h1>smoovacado</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            Select image to upload (.png files only):
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+        <p>Upload an image</p>
+        <input type="file" id="fileinput" accept="image/*"/>
+        <div class="container" id="gallery"></div>
+        <script src="gallery.js"></script>
+<iframe style="height:480px; width:402px" src='https://webchat.botframework.com/embed/kennysobel_5U4KfJOkYJQ?s=rgUuDgp2eI4.cwA.VxQ.5rLPJ0UtzjEnAl0JYhDr7cB19Uj9t92NNJMJ-QHeWPY'></iframe>
+        <p></p>
+    </div>
+    <div class="custom-file-container" data-upload-id="myFirstImage">
+    <label>Upload File <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image">x</a></label>
+    <label class="custom-file-container__custom-file" >
+        <input type="file" class="custom-file-container__custom-file__custom-file-input" accept="*" multiple>
+        <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+        <span class="custom-file-container__custom-file__custom-file-control"></span>
+    </label>
+    <div class="custom-file-container__image-preview"></div>
+</div>
+</body>
+ -->
