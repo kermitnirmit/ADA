@@ -5,7 +5,7 @@ html, body {
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,700');
 body {
     margin: 0px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
     background-color: #363F05; /* # 8CAF3C a3cc45*/
     color: #FCFEDB;/* color of nirmit shah text */
     overflow-x: hidden; /* Disable horizontal scroll */
